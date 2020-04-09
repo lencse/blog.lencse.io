@@ -267,6 +267,12 @@
         gulp.series('sass', 'vendor_css', 'app_css')
     );
 
+    gulp.task('clean_deploy_files', function() {
+        return del('./files/**/*', {
+            force: true
+        });
+    })
+
     gulp.task('deploy_files', function(done) {
         gulp.src('./assets/css/app.min.css')
             .pipe(gulp.dest('./files/css'))
@@ -285,7 +291,7 @@
 
     gulp.task(
         'build',
-        gulp.series('build_css', 'js', 'deploy_files')
+        gulp.series('build_css', 'js', 'clean_deploy_files', 'deploy_files')
     );
 
     gulp.task(
