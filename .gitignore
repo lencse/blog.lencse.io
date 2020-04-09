@@ -3,3 +3,14 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+/build/
+/production/
+.sass-cache
+node_modules
+bower_components
+*.map
+.tmp
+tmp
+
+/files
