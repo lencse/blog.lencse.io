@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<section class="blog-area">
+    <div class="container">
+        <div class="entry-title">
+            <div class="meta-info">
+                <span>{{ page.date | date: '%B %d, %Y' }}</span>
+                <span><a href="/categories/{{ page.category | slugize }}">{{ page.category | escape | capitalize }}</a></span>
+            </div>
+            <h1>{{ page.title | escape }}</h1>
+            <div class="author">
+                <ul class="avatar">
+                    <li>
+                        <img src="/files/images/lencse.jpg" alt="feature image" data-toggle="tooltip"
+                            data-placement="top" title="Lencse" />
+                        </li>
+                </ul>
+                <div class="name">
+                    <span><a href="/about/">Lencse</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="entry-content">
+            {{ content }}
+        </div>
+
+        <div class="tags-meta m-b-60">
+            <ul class="list-inline">
+                {%- for tag in page.tags -%}
+                    <li class="list-inline-item">
+                        <a href="/tags/{{ tag | slugize }}">
+                            <i class="fas fa-tag one"></i>&nbsp;{{ tag | escape }}
+                        </a>
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+
+
+    </div>
+</section>

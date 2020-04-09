@@ -1,18 +1,18 @@
 (function($) {
 	"use strict";
-	 	
-		
-		
+
+
+
 /*  Preloader*/
 
-$(window).on('load',function(){
+// $(window).on('load',function(){
 
-	var preLoder = $(".lds-css");
-	preLoder.fadeOut(1000);
-   
-});    
-	
-/*  slimmenu */  
+// 	var preLoder = $(".lds-css");
+// 	preLoder.fadeOut(1000);
+
+// });    
+
+/*  slimmenu */
 
 $('.slimmenu').slimmenu({
 	resizeWidth: '992',
@@ -20,11 +20,11 @@ $('.slimmenu').slimmenu({
 	animSpeed: 'fast',
 	easingEffect: null,
 	indentChildren: true,
-});		
-		
+});
 
 
-/*  AOS */  
+
+/*  AOS */
     AOS.init({
         offset: 120,
         delay: 0,
@@ -34,25 +34,25 @@ $('.slimmenu').slimmenu({
         mirror: false,
         anchorPlacement: 'top-bottom'
 
-    });		
-		
-/*  tooltip */  
+    });
+
+/*  tooltip */
 
 
 
 $('[data-toggle="tooltip"]').tooltip();
 
 
-/*  fitVids */ 
+/*  fitVids */
 
 $(".container").fitVids();
 
- 
-/*  scrollTop */ 
+
+/*  scrollTop */
 
 
 var header = $(".social-fixed");
-$(window).scroll(function() {    
+$(window).scroll(function() {
 	var scroll = $(window).scrollTop();
 
 	if (scroll >= 600) {
@@ -61,27 +61,27 @@ $(window).scroll(function() {
 		header.removeClass("show-social").addClass('hide-social');
 	}
 });
- 
-/*  scrollTop */  
+
+/*  scrollTop */
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() >= 50) {       
-        $('#return-top').fadeIn(200);    
+    if ($(this).scrollTop() >= 50) {
+        $('#return-top').fadeIn(200);
     } else {
-        $('#return-top').fadeOut(200);   
+        $('#return-top').fadeOut(200);
     }
 });
 
-$('#return-top').on( 'click',function() {      
+$('#return-top').on( 'click',function() {
     $('body,html').animate({
-        scrollTop : 0                      
+        scrollTop : 0
     }, 500);
 }
 
 );
 
 
-/*  banner slider */  
+/*  banner slider */
 $('.banner-slider').owlCarousel({
 	nav: true,
 	dots: false,
@@ -96,9 +96,9 @@ $('.banner-slider').owlCarousel({
 		}
 	}
 
-});	
+});
 
-/*  infinite-scroll */  
+/*  infinite-scroll */
 
 $('.infinite-scroll').infiniteScroll({
 	path: function path() {
@@ -110,7 +110,7 @@ $('.infinite-scroll').infiniteScroll({
 	scrollThreshold: false
 });
 
-/*  latest slider */  
+/*  latest slider */
 $('.latest-slider').owlCarousel({
 	nav: true,
 	dots: false,
@@ -128,8 +128,8 @@ $('.latest-slider').owlCarousel({
 		}
 	}
 
-});	
-/*  author bio slider */  
+});
+/*  author bio slider */
 $('.author-bio-slider').owlCarousel({
 	nav: true,
 	dots: false,
@@ -147,15 +147,15 @@ $('.author-bio-slider').owlCarousel({
 		}
 	}
 
-});	
+});
 
 
 
-	
-	
+
+
 }(jQuery));
 
- 
 
-		
+
+
 

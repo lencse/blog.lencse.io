@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-2">
+        <div class="header-logo">
+            <a href="/"><img src="/files/images/header-logo.png" alt="" /></a>
+        </div>
+    </div>
+    <div class="col-10">
+        <div class="themeix-menu">
+            <ul class="slimmenu" id="main-menu">
+                {%- for page in site.pages -%}
+                    {% if page.site_page %}
+                        <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {%- endfor -%}
+            </ul>
+            <a href="#" class="search-modal" data-toggle="modal" data-target="#search-modal">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+    </div>
+</div>
