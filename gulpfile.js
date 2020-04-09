@@ -258,8 +258,12 @@
     });
 
     gulp.task('watch', function() {
-        gulp.watch('assets/scss/**/*.scss', gulp.series('build_css'));
-        gulp.watch(['./assets/js/app.js'], gulp.series('js'));
+        gulp.watch('assets/scss/**/*.scss', gulp.series('build_css', 'deploy_files'));
+        gulp.watch(['./assets/js/app.js'], gulp.series('js', 'deploy_files'));
+        // gulp.watch([
+        //     './assets/js/build.min.js',
+        //     './assets/css/app.min.css',
+        // ], gulp.series('deploy_files'));
     });
 
     gulp.task(
@@ -303,8 +307,6 @@
         'production',
         gulp.series('clean-production', 'copy_all_files', 'copy_css_files', 'copy_js_files', 'inject_code_html', 'inject_code_html_2', 'remove_extra_code', 'production-zip', 'zip')
     );
-
-
 
     gulp.task(
         'default',
