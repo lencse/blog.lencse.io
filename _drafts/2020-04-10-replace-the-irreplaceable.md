@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Replace the irreplacable
+title: Replace the irreplaceable
 date: 2020-04-10 01:30
-category: Blog
+categories: Blog
 author: lencse
 tags: [Service Announcement, Jekyll]
-summary:
+summary: >-
+    First of many.
 ---
 
 Start

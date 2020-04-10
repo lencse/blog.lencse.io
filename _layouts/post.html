@@ -7,7 +7,7 @@ layout: default
         <div class="entry-title">
             <div class="meta-info">
                 <span>{{ page.date | date: '%B %d, %Y' }}</span>
-                <span><a href="/categories/{{ page.category | slugize }}">{{ page.category | escape | capitalize }}</a></span>
+                <span><a href="/category/{{ page.category | slugize }}">{{ page.category | escape | capitalize }}</a></span>
             </div>
             <h1>{{ page.title | escape }}</h1>
             <div class="author">
