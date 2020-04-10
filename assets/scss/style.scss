@@ -1,13 +1,13 @@
 /*
-Template name: Churel - Responsive HTML Template 
-Template URL: https://themeix.com/livedemo?theme=churel-HTML 
-Author Name: Themeix 
-Author URL: https://themeix.com 
-Tag: tab mobile,computer,desctop,responsive design,all browser supported,html5,css3,Sass. 
-Verson: 1.0 
-Description: Cricson is modern and latest technology based blogging template created by html5 and sass. 
+Template name: Churel - Responsive HTML Template
+Template URL: https://themeix.com/livedemo?theme=churel-HTML
+Author Name: Themeix
+Author URL: https://themeix.com
+Tag: tab mobile,computer,desctop,responsive design,all browser supported,html5,css3,Sass.
+Verson: 1.0
+Description: Cricson is modern and latest technology based blogging template created by html5 and sass.
 */
- 
+
 /*
 ===========================
 TABLE INDEX
@@ -16,13 +16,13 @@ TABLE INDEX
 ===========================
 */
 
-// Add 	Scss 
+// Add 	Scss
 @import 'base/fonts';
 @import 'base/variables';
 @import 'base/reset';
 @import 'base/functions';
-@import 'base/typography'; 
- 
+@import 'base/typography';
+
 
 /* ==============================================
 
@@ -30,7 +30,7 @@ TABLE INDEX
 
 ============================================== */
 .bg-color1{
-   background-color: $default-color;  
+   background-color: $default-color;
 }
 
 .overlay:before{
@@ -44,19 +44,19 @@ TABLE INDEX
 	background-color: $overlay-color;
 	z-index:1;
 }
-.facebook{         
+.facebook{
     background:    #1AB2E8 ;
     &:hover{
 	  background:    #1AB2E8 !important;
 	}
 
 }
-.twitter {   
+.twitter {
     background:  #3A5896;
      &:hover{
 	    background:  #3A5896 !important;
 	 }
-	  
+
 }
 .instagram{
        background:  #F16797;
@@ -64,7 +64,7 @@ TABLE INDEX
 	     background:  #F16797 !important;
 	  }
 }
-.pinterest{ 
+.pinterest{
        background:  #C51F26;
        &:hover{
 	       background:  #C51F26 !important;
@@ -76,11 +76,11 @@ TABLE INDEX
 
 ============================================== */
 .bg-image1{
-   background: $light-color url("../images/footer-bg.png") no-repeat fixed center/cover; 
+   background: $light-color url("../images/footer-bg.png") no-repeat fixed center/cover;
 }
 
 .footer-image{
-   background: $light-color url("../images/footer-bg.png") no-repeat top/cover; 
+   background: $light-color url("../images/footer-bg.png") no-repeat top/cover;
 }
 
 
@@ -103,13 +103,13 @@ TABLE INDEX
 	      position:static;
 	   } @include tablet{
 	      position:static;
-	   } 
+	   }
 	}
-   
+
 }
 .header-area{
     padding:50px 0;
-	
+
 	@include laptop{
 	       padding: 30px 0;
 	}
@@ -126,7 +126,7 @@ TABLE INDEX
     z-index:6666;
    @include laptop{
       display:none;
-   } 
+   }
    @include tablet{
       display:none;
    }
@@ -172,7 +172,7 @@ TABLE INDEX
  #main-menu {
      width:calc(100% - 30px);
 	 float:left;
-	 
+
 	 @include tablet{
 	     width:100%;
 	 }
@@ -187,7 +187,7 @@ TABLE INDEX
 		}
 		>a {
 			padding: 12px 40px 12px 0px;
-			transition: $transition-base; 
+			transition: $transition-base;
 			font-weight: $font-weight-normal;
 			color:$default-color;
 			display: block;
@@ -222,7 +222,7 @@ TABLE INDEX
 			}
 		}
 	}
-	
+
 	@include laptop {
 		position: absolute;
 		left: 0;
@@ -259,7 +259,7 @@ TABLE INDEX
 			li {
 				display: block;
 				float: none;
-				&:last-child { 
+				&:last-child {
 					border-bottom: 0;
 				}
 				@include laptop {
@@ -279,7 +279,7 @@ TABLE INDEX
 			}
 		}
 	}
-	
+
 }
 .collapse-button{
    top:20px;
@@ -291,8 +291,8 @@ TABLE INDEX
 	 width:30px;
 	 padding:12px 0px 12px 0;
 	 color:$default-color;
-	 
-	 
+
+
 	 @include laptop{
 	    position: absolute;
 		top: -3px;
@@ -326,7 +326,7 @@ TABLE INDEX
 	   padding:0;
 	   border:0;
 	   border-bottom:$border;
-	
+
 	   button{
 	      background:transparent;
 		  color:$default-color;
@@ -371,7 +371,7 @@ TABLE INDEX
     color: $light-color !important;
 	    width: 40px;
 		height:30px;
-	  } 
+	  }
 	  .owl-next{
 	  background-color:$primary-color !important;
     font-size: 30px!important;
@@ -385,7 +385,7 @@ TABLE INDEX
 .banner-area{
     position:relative;
 	overflow:hidden;
-}  
+}
 #banner-one{
   @include laptop{
      display:none;
@@ -587,7 +587,7 @@ TABLE INDEX
 
 .thumbnail{
     height:100%;
-	
+
 	&:before{
     content: "";
     background-image: url(../images/banner-shap.png);
@@ -609,17 +609,17 @@ TABLE INDEX
     margin-left: 60px;
     border-top-right-radius: $box-radius;
     border-bottom-right-radius: $box-radius;
-   
+
 	}
 }
 .content{
    position:relative;
    margin:200px 0;
-   
+
    @include laptop{
        margin:0;
        margin-top:60px;
-   } 
+   }
    @include tablet{
        margin:0;
        margin-top:60px;
@@ -634,7 +634,7 @@ TABLE INDEX
     left: -160px;
     top: -60px;
   }
-  
+
   .wrap{
      position:relative;
 	 z-index:2;
@@ -656,17 +656,17 @@ TABLE INDEX
 			   border-radius:$round-radius;
 			   object-fit:cover;
 			 }
-		  } 
+		  }
 	  }
 	  .name{
 	     padding-left:10px;
 		 padding-top:2px;
-		 
+
 		 a{
 		   color:$primary-color;
 		 }
 	  }
-	  
+
    }
 
     .meta-info{
@@ -678,13 +678,13 @@ TABLE INDEX
 			  content:"|";
 			  margin-left:15px;
 			  opacity:0.5;
-			  
+
 		   }
 		   &:last-child:after{
 			  display:none;
 		   }
 		   a{
-		   
+
 		      color:$primary-color;
 		   }
 		}
@@ -699,7 +699,7 @@ TABLE INDEX
 	 }
   }
 }
-   
+
 }
 
 
@@ -747,7 +747,7 @@ TABLE INDEX
 		width:110px;
 		border-radius:$round-radius;
 		}
-		
+
 		@include laptop{
 		    bottom: -105px;
 		}
@@ -762,7 +762,7 @@ TABLE INDEX
 		position: absolute;
 		right: 0;
 		bottom: -102px;
-		
+
 		@include laptop{
 		   bottom: -80px;
 		}
@@ -789,8 +789,8 @@ TABLE INDEX
 	  }
    }
 	}
-	
-	
+
+
 }
 
 
@@ -813,13 +813,13 @@ TABLE INDEX
 	padding:60px;
 	border-radius:$box-radius;
 	margin-bottom:30px;
-	
+
 	@include laptop{
 	   padding:30px;
 	}@include tablet{
 	   padding:30px;
 	}
-	&:before{ 
+	&:before{
     content: "";
     background-image: url(../images/blog-after.png);
 	background-size: cover;
@@ -839,21 +839,25 @@ TABLE INDEX
 	}
    .feature-btn{
        float:right;
-	   background:$light-color;
-	   color:$secondary-color;
+	   color:$light-color;
 	   font-size:$small-font-size;
 	   padding:2px 12px;
 	   border-radius:$box-radius;
 	   i{
 	      margin-right:5px;
 	   }
-	   
+
 	   @include mobile{
 	       float:none;
 		   margin-bottom:5px;
-	   }
+       }
+
+       &:hover {
+    	   background:$light-color;
+           color: $secondary-color;
+       }
    }
-   
+
    .author{
 	   display: flex;
 	   margin-bottom:30px;
@@ -875,17 +879,17 @@ TABLE INDEX
 			   border:2px solid $light-color;
 			   object-fit:cover;
 			 }
-		  } 
+		  }
 	  }
 	  .name{
 	     padding-left:10px;
 		 padding-top:2px;
 	  }
-	  
+
    }
    h2,h3,h4,h5,h6,p,span{
       color:$light-color;
-	  
+
 	  a{
 	     color:$light-color;
 	  }
@@ -893,7 +897,7 @@ TABLE INDEX
    .desc{
          h3,h4,h5{
 		    margin-bottom:30px;
-			
+
 			&:after{
 			   content:"";
 			   width:0%;
@@ -916,13 +920,13 @@ TABLE INDEX
 			      content:"|";
 				  margin-left:15px;
 				  opacity:0.5;
-				  
+
 			   }
 			   &:last-child:after{
 			      display:none;
 			   }
 			   a{
-			   
+
 				  color:$light-color;
 			   }
 			}
@@ -936,7 +940,7 @@ TABLE INDEX
 	  overflow:hidden;
       .thumbnail{
 	      img{
-		  
+
 		     width:100%;
 			 max-width:600px;
 		  }
@@ -948,7 +952,7 @@ TABLE INDEX
 		     color:$light-color;
 		 }
 		 h4,h5,h3{
-		    
+
 			&:hover{
 			    text-decoration:underline;
 			}
@@ -963,7 +967,7 @@ TABLE INDEX
 			font-size:$small-font-size;
 			span{
 			   margin-right:10px;
-			   
+
 			}
 		 }
 	  }
@@ -997,13 +1001,13 @@ TABLE INDEX
 			  content:"|";
 			  margin-left:15px;
 			  opacity:0.5;
-			  
+
 		   }
 		   &:last-child:after{
 			  display:none;
 		   }
 		    a{
-		   
+
 		      color:$primary-color;
 		   }
 		}
@@ -1027,14 +1031,14 @@ TABLE INDEX
 			   border-radius:$round-radius;
 			   object-fit:cover;
 			 }
-		  } 
+		  }
 	  }
 	  .name{
 	     padding-left:10px;
 		 padding-top:2px;
-		 
+
 		  a{
-		   
+
 		      color:$primary-color;
 		   }
 	  }
@@ -1052,11 +1056,11 @@ TABLE INDEX
       padding:15px;
       text-align:center;
 	  font-size:24px;
-	  
+
 	  @include laptop{
 	     font-size:20px;
 		 line-height:1.6;
-	  } 
+	  }
 	  @include tablet{
 	     font-size:20px;
 		 line-height:1.6;
@@ -1073,12 +1077,15 @@ TABLE INDEX
 
 }
 
+.content-text {
+    font-family: $content-font-family;
+}
 
 
 
 .tags-meta {
 	ul{
-	
+
 	margin:0;
 	li {
 		a {
@@ -1091,10 +1098,10 @@ TABLE INDEX
 			}
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 	}
 }
 .social-meta {
@@ -1109,7 +1116,7 @@ TABLE INDEX
 	position:relative;
 	display:inline-block;
 	margin: 0;
-	
+
 	&:before{
 	       content: "";
 			background-image: url(../images/social-meta-before.png);
@@ -1119,7 +1126,7 @@ TABLE INDEX
 			display: block;
 			position: absolute;
 			right: -60px;
-			
+
 			@include tablet{
 			    display:none;
 			}
@@ -1137,7 +1144,7 @@ TABLE INDEX
 				}
 			}
 		}
-	
+
 	}
 }
 .author-bio-slider{
@@ -1145,7 +1152,7 @@ TABLE INDEX
 	padding:60px;
 	border-radius:$box-radius;
 	position:relative;
-	
+
 	@include laptop{
 	   padding:30px;
 	}
@@ -1169,9 +1176,9 @@ TABLE INDEX
 		height:100%;
 		opacity:0.2;
 	}
-	
-	
-	
+
+
+
    .author{
       width:100%;
 	  display:table;
@@ -1198,7 +1205,7 @@ TABLE INDEX
 		    display:inline-block;
 		 }
 	 }
-   
+
    }
    .content{
         p{
@@ -1225,18 +1232,18 @@ TABLE INDEX
 	        float: left;
     font-size: 50px!important;
     color: $light-color !important;
-	  } 
+	  }
 	  .owl-next{
 	    float: right;
     font-size: 50px!important;
     color: $light-color !important;
 	  }
-	  
+
 	  @include tablet{
 	      display:none !important;
 	  }
    }
-   
+
    &:hover{
        .owl-nav{
 	      display:block;
@@ -1268,7 +1275,7 @@ TABLE INDEX
 	   width:calc(100% - 50px);
 	   padding-left:15px;
 	   float:left;
-	   
+
 	   h4,h5,h6{
 	      margin:0;
 	   }
@@ -1299,7 +1306,7 @@ TABLE INDEX
 	        float: left;
     font-size: 50px!important;
     color: $light-color !important;
-	  } 
+	  }
 	  .owl-next{
 	    float: right;
     font-size: 50px!important;
@@ -1309,7 +1316,7 @@ TABLE INDEX
 	      display:none !important;
 	  }
    }
-   
+
    &:hover{
        .owl-nav{
 	      display:block;
@@ -1375,7 +1382,7 @@ TABLE INDEX
 	background-color:$success-color;
 	border-radius:$box-radius;
 	display:inline-block;
-	
+
 	&:hover{
 	   color:$light-color;
 	}
@@ -1469,9 +1476,9 @@ TABLE INDEX
 		  }
 	   }
 	}
-	
+
    }
-   
+
 }
 
 
@@ -1487,7 +1494,7 @@ TABLE INDEX
   padding: 225px 0px 50px;
   p{
      color:$light-color;
-	 
+
 	 &:last-child{
 	     margin:0;
 	 }
@@ -1501,7 +1508,7 @@ TABLE INDEX
 	      color:$light-color;
 	   }
    }
-   
+
    @include tablet{
       text-align:left !important;
    }
@@ -1513,7 +1520,7 @@ TABLE INDEX
 .footer-social{
    float:right;
    margin:0;
-   
+
    @include laptop{
       float:left;
 	  margin-top:15px;
@@ -1531,7 +1538,7 @@ TABLE INDEX
 	  padding:7px 3px;
 	  border-radius:$round-radius;
 	  transition:$transition-base;
-	  
+
 	  &:hover{
 	     opacity:0.8;
 	  }

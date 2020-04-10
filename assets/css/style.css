@@ -1,11 +1,11 @@
 /*
-Template name: Churel - Responsive HTML Template 
-Template URL: https://themeix.com/livedemo?theme=churel-HTML 
-Author Name: Themeix 
-Author URL: https://themeix.com 
-Tag: tab mobile,computer,desctop,responsive design,all browser supported,html5,css3,Sass. 
-Verson: 1.0 
-Description: Cricson is modern and latest technology based blogging template created by html5 and sass. 
+Template name: Churel - Responsive HTML Template
+Template URL: https://themeix.com/livedemo?theme=churel-HTML
+Author Name: Themeix
+Author URL: https://themeix.com
+Tag: tab mobile,computer,desctop,responsive design,all browser supported,html5,css3,Sass.
+Verson: 1.0
+Description: Cricson is modern and latest technology based blogging template created by html5 and sass.
 */
 /*
 ===========================
@@ -394,7 +394,7 @@ th {
   margin-right: 60px; }
 
 body {
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   line-height: 1.8;
   font-weight: 400;
@@ -1051,7 +1051,7 @@ small,
   .banner-post .content .author {
     margin: 0;
     display: flex;
-    font-size: 20px; }
+    font-size: 16px; }
     .banner-post .content .author .avatar {
       display: flex;
       flex-wrap: wrap-reverse;
@@ -1071,7 +1071,7 @@ small,
         color: #a26bf6; }
   .banner-post .content .meta-info {
     margin-bottom: 10px;
-    font-size: 20px; }
+    font-size: 16px; }
     .banner-post .content .meta-info span {
       margin-right: 15px; }
       .banner-post .content .meta-info span:after {
@@ -1112,7 +1112,7 @@ small,
     position: relative;
     z-index: 5; }
   .page-title-post .meta-info {
-    font-size: 20px; }
+    font-size: 16px; }
     .page-title-post .meta-info i {
       margin-right: 5px; }
   .page-title-post .author-img {
@@ -1195,9 +1195,8 @@ small,
     z-index: 2; }
   .blog-post .feature-btn {
     float: right;
-    background: #ffffff;
-    color: #333333;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 16px;
     padding: 2px 12px;
     border-radius: 10px; }
     .blog-post .feature-btn i {
@@ -1206,10 +1205,13 @@ small,
       .blog-post .feature-btn {
         float: none;
         margin-bottom: 5px; } }
+    .blog-post .feature-btn:hover {
+      background: #ffffff;
+      color: #333333; }
   .blog-post .author {
     display: flex;
     margin-bottom: 30px;
-    font-size: 20px; }
+    font-size: 16px; }
     @media (max-width: 575px) {
       .blog-post .author {
         margin-top: 15px; } }
@@ -1247,7 +1249,7 @@ small,
       width: 100%; }
   .blog-post .desc .meta-info {
     margin: 0;
-    font-size: 20px; }
+    font-size: 16px; }
     .blog-post .desc .meta-info span {
       margin-right: 15px; }
       .blog-post .desc .meta-info span:after {
@@ -1275,12 +1277,12 @@ small,
     .author-post .content h4:hover, .author-post .content h5:hover, .author-post .content h3:hover {
       text-decoration: underline; }
     .author-post .content p {
-      font-size: 20px;
+      font-size: 16px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       padding-bottom: 25px;
       margin-bottom: 25px; }
     .author-post .content .social {
-      font-size: 20px; }
+      font-size: 16px; }
       .author-post .content .social span {
         margin-right: 10px; }
 
@@ -1295,10 +1297,10 @@ small,
     margin: 0; }
   .category-post .desc .meta-info {
     margin-bottom: 15px;
-    font-size: 20px; }
+    font-size: 16px; }
 
 .entry-title .meta-info {
-  font-size: 20px; }
+  font-size: 16px; }
   .entry-title .meta-info span {
     margin-right: 15px; }
     .entry-title .meta-info span:after {
@@ -1316,7 +1318,7 @@ small,
 .entry-title .author {
   display: flex;
   margin-bottom: 30px;
-  font-size: 20px; }
+  font-size: 16px; }
   .entry-title .author .avatar {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -1358,6 +1360,9 @@ small,
 
 .entry-content .fluid-width-video-wrapper {
   margin-bottom: 1rem; }
+
+.content-text {
+  font-family: "Merriweather", serif; }
 
 .tags-meta ul {
   margin: 0; }
@@ -1448,12 +1453,12 @@ small,
       .author-bio-slider .author .name h4, .author-bio-slider .author .name h5, .author-bio-slider .author .name h6 {
         margin-bottom: 0; }
       .author-bio-slider .author .name span {
-        font-size: 20px;
+        font-size: 16px;
         display: inline-block; }
   .author-bio-slider .content p {
     color: #ffffff; }
   .author-bio-slider .content .social-link {
-    font-size: 20px;
+    font-size: 16px;
     margin-bottom: 0; }
     .author-bio-slider .content .social-link li a {
       color: #ffffff; }
@@ -1503,11 +1508,11 @@ small,
     .comments-box .content p {
       margin: 5px 0; }
     .comments-box .content span {
-      font-size: 20px;
+      font-size: 16px;
       display: inline-block; }
     .comments-box .content .reply-btn {
       color: #a26bf6;
-      font-size: 20px; }
+      font-size: 16px; }
 
 .latest-slider .owl-nav {
   display: none;
@@ -1657,7 +1662,7 @@ small,
       margin: 0; }
       .contact-info .content .social span {
         margin: 0 10px;
-        font-size: 20px; }
+        font-size: 16px; }
         .contact-info .content .social span a {
           color: #383143; }
 
@@ -1674,7 +1679,7 @@ small,
       margin: 0; }
 
 .footer-copyright p {
-  font-size: 20px;
+  font-size: 16px;
   margin: 0; }
   .footer-copyright p a {
     color: #ffffff; }

@@ -23,9 +23,9 @@
 
     // Typography
 
-    $font-family-base:            'Merriweather', serif;
+    $font-family-base:            'Montserrat', sans-serif;
     $font-size-base:              2 !default;
-    $small-font-size:             20px;
+    $small-font-size:             16px;
     $font-weight-light:           300;
     $font-weight-normal:          400 !default;
     $font-weight-medium:          500 ;
@@ -46,6 +46,7 @@
     $big-font2:                   $font-size-base * 2.75;
     $big-font3:                   $font-size-base * 2.5;
 
+    $content-font-family:      'Merriweather', serif;
 
     // Component
 
