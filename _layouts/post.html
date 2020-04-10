@@ -7,7 +7,9 @@ layout: default
         <div class="entry-title">
             <div class="meta-info">
                 <span>{{ page.date | date: '%B %d, %Y' }}</span>
-                <span><a href="/category/{{ page.category | slugize }}">{{ page.category | escape | capitalize }}</a></span>
+                {%- for category in page.categories -%}
+                    <span><a href="/category/{{ category | slugify }}">{{ category | escape | capitalize }}</a></span>
+                {%- endfor -%}
             </div>
             <h1>{{ page.title | escape }}</h1>
             <div class="author">
@@ -30,7 +32,7 @@ layout: default
             <ul class="list-inline">
                 {%- for tag in page.tags -%}
                     <li class="list-inline-item">
-                        <a href="/tags/{{ tag | slugize }}">
+                        <a href="/tag/{{ tag | slugify }}">
                             <i class="fas fa-tag one"></i>&nbsp;{{ tag | escape }}
                         </a>
                     </li>

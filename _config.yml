@@ -32,6 +32,7 @@ timezone: Europe/Budapest
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -56,3 +57,12 @@ exclude:
   - assets
 
 permalink: /:year/:month/:day/:title/
+
+jekyll-archives:
+  enabled: all
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: '/tag/:name/'
+    category: '/category/:name/'
