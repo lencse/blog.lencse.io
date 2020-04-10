@@ -4,14 +4,13 @@ default: _site
 _site: files
 	bundle exec jekyll build
 
-files: node_modules
+files: node_modules bower_components
 	gulp build
+
+bower_components: node_modules
 
 node_modules:
 	npm install
-
-# _site/404.html: _site/404/index.html
-# 	cp _site/404/index.html _site/404.html
 
 draft: files
 	bundle exec jekyll serve --drafts
