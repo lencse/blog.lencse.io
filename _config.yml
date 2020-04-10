@@ -56,6 +56,11 @@ exclude:
   - vendor/ruby/
   - bower_components
   - assets
+  - bower.json
+  - gulpfile.js
+  - Makefile
+  - package-lock.json
+  - package.json
 
 permalink: /:year/:month/:day/:title/
 
