@@ -8,7 +8,9 @@ layout: default
             <div class="meta-info">
                 <span>{{ page.date | date: '%B %d, %Y' }}</span>
                 {%- for category in page.categories -%}
-                    <span><a href="/category/{{ category | slugify }}">{{ category | escape | capitalize }}</a></span>
+                    <span><a href="/category/{{ category | slugify }}">
+                        <i class="fas fa-folder-open one"></i>&nbsp;{{ category | escape | capitalize }}
+                    </a></span>
                 {%- endfor -%}
             </div>
             <h1>{{ page.title | escape }}</h1>
