@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-2">
+        <div class="header-logo">
+            <a href="/"><span style="font: 30px 'Comic Neue', cursive; color: #a26bf6;"><i class="fas fa-kiwi-bird"></i> Lencse</span></a>
+        </div>
+    </div>
+    <div class="col-10">
+        <div class="themeix-menu">
+            <ul class="slimmenu" id="main-menu">
+                <li>
+                    <a href="#" >Categories</a>
+                    <ul>
+                        {%- for category in site.categories -%}
+                            <li><a href="/category/{{ category[0] | slugify }}">{{ category[0] | escape }}</a></li>
+                        {%- endfor -%}
+                    </ul>
+                 </li>
+                <li>
+                    <a href="#" >Tags</a>
+                    <ul>
+                        {%- for tag in site.tags -%}
+                            <li><a href="/tag/{{ tag[0] | slugify }}">{{ tag[0] | escape }}</a></li>
+                        {%- endfor -%}
+                    </ul>
+                 </li>
+                {%- for page in site.pages -%}
+                    {% if page.site_page %}
+                        <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+                    {% endif %}
+                {%- endfor -%}
+            </ul>
+            <a href="#" class="search-modal" data-toggle="modal" data-target="#search-modal">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+    </div>
+</div>

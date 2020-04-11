@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+    - 12.16.2
+
+before_install:
+    - rvm install 2.6.3
+    - bundle install
+
+script:
+    - make
+    - find ./_site
+
+after_script:
+    - bundle exec htmlproofer --allow_hash_href ./_site
