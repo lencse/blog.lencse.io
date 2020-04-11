@@ -32,12 +32,12 @@
     $font-weight-semi:            700 ;
     $font-weight-bold:            900 !default;
     $line-height-base:            1.8 !default;
-    $h1-font-size:                $font-size-base * 2.75;
-    $h2-font-size:                $font-size-base * 2.25;
-    $h3-font-size:                $font-size-base * 2;
-    $h4-font-size:                $font-size-base * 1.75;
-    $h5-font-size:                $font-size-base * 1.5;
-    $h6-font-size:                $font-size-base * 1.25;
+    $h1-font-size:                $font-size-base * 3;
+    $h2-font-size:                $font-size-base * 2.5;
+    $h3-font-size:                $font-size-base * 1.75;
+    $h4-font-size:                $font-size-base * 1.5;
+    $h5-font-size:                $font-size-base * 1.25;
+    $h6-font-size:                $font-size-base * 1;
     $headings-color:              $secondary-color;
 
     $headings-font-family:        'Montserrat', sans-serif;
