@@ -170,7 +170,9 @@ TABLE INDEX
 .themeix-menu{
     float:right;
  #main-menu {
-     width:calc(100% - 30px);
+     width: 100%;
+     // TODO: uncomment when search button is put back
+     //  width:calc(100% - 30px);
 	 float:left;
 
 	 @include tablet{
