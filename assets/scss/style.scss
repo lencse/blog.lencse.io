@@ -160,6 +160,9 @@ TABLE INDEX
 	visibility:hidden;
 }
 .header-logo{
+    a {
+        position: fixed;
+    }
     padding:5px 0;
     img{
 		max-height:30px;
