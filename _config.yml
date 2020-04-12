@@ -73,3 +73,10 @@ jekyll-archives:
   permalinks:
     tag: '/tag/:name/'
     category: '/category/:name/'
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      image: /site-assets/images/site-logo.png
