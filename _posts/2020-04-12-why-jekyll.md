@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Jekyll?
-date: 2020-04-12 12:00
+date: 2020-04-12 16:30
 category: Platforms
 author: Lencse
 tags:
@@ -23,11 +23,11 @@ I wanted a stable, reliable static site generator and there's no debate that Jek
 
 ## About Gatsby
 
-I looked after other options and I've found the [Gatsby](https://www.gatsbyjs.org/) project pretty interesting. I even built a prototype for this blog in Gatsby. The speed of rendering the pages without reloading the whole site is impressive, and it has some very interesting features, and now it's mature enough that it almost can serve as a blogging engine readable by search engines and all kinds of browsers.
+I've looked after other options and I've found the [Gatsby](https://www.gatsbyjs.org/) project pretty interesting. I've even built a prototype for this blog in Gatsby. The speed of rendering the pages without reloading the whole site is impressive, and it has some very interesting features, and now it's mature enough that it almost can serve as a blogging engine readable by search engines and all kinds of browsers.
 
 Almost.
 
-I first heard about Gatsby in the [Ladybug Podcast](https://ladybug.dev/), and even the podcast website is buggy on my laptop and my phone because it always wants to load an old version of the web app from the browser storage. A few weeks ago I give Gatsby another try but even the starter boilerplate start couldn't work because there was some problems with the package installed with my node.js version or whatever.
+I first heard about Gatsby in the [Ladybug Podcast](https://ladybug.dev/), and even the podcast website is buggy on my laptop and my phone because it always wants to load an old version of the web app from the browser storage. A few weeks ago I gave Gatsby another try but even the starter boilerplate start couldn't work because there were some problems with the package installed with my node.js version or whatever.
 
 Another problem is that I always thought that I know the javascript syntax until I saw some Gatsby code. :( Seriously, what the hell is happening there?
 

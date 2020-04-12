@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Replace the irreplaceable
-date: 2020-04-12 10:00
+date: 2020-04-12 16:00
 categories: Blog
 author: Lencse
 tags:
@@ -22,7 +22,7 @@ This blog is built with [Jekyll](https://jekyllrb.com/) and hosted on [Netlify](
 
 ### Why Jekyll?
 
-Because it's a stable and well-tested solution for my purpose.
+Because it's a stable and well-tested solution for my purpose. [I've written a post about this.]({% post_url 2020-04-12-why-jekyll %})
 
 ### Why Netlify?
 
