@@ -79,4 +79,4 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      image: /site-assets/images/lencse-logo.png
+      image: /site-assets/images/site-main-image.png
