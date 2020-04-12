@@ -17,7 +17,7 @@ summary: >-
     is against my intentions.
 ---
 
-Why I built whis site with Jekyll?
+Why I built this site with Jekyll?
 
 I wanted a stable, reliable static site generator and there's no debate that Jekyll is the most tested and stable static site generator in the field. It's no secret I had some difficulties with installing a new version of Ruby, but after then, everything went smoothly. After all, all I want is a system that lets me publishing posts, sort them under categories and tags and show them on a front page. And Jekyll has a long history of doing exactly this.
 
@@ -56,3 +56,5 @@ const UserWrapper = styled.div`
 ```
 
 So, while I absolutely think that Gatsby is a very promising concept, and I'm planning to use it for an other project, I decided to start with an old fashioned, pure blogging engine with a good old player from the market.
+
+Cutting edge technologies worth the time digging into, but always know when to stick with a boring, tested solution.
