@@ -1,5 +1,8 @@
 <script src="/site-assets/js/build.min.js"></script>
-<script src="https://cdn.commento.io/js/commento.js"></script>
+
+{% if page.layout == 'post' %}
+    <script src="https://cdn.commento.io/js/commento.js"></script>
+{% endif %}
 
 {% if jekyll.environment == "production" %}
     <script>
