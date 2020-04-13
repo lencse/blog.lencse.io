@@ -80,3 +80,10 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       image: /site-assets/images/site-main-image.png
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      extra_scripts:
+        - https://cdn.commento.io/js/commento.js
