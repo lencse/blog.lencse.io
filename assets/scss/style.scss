@@ -905,7 +905,10 @@ h1.header-logo{
 	  }
    }
    .desc{
-         h3,h4,h5{
+         h2 {
+            font-size: 30px;
+         }
+         h2,h3,h4,h5{
 		    margin-bottom:30px;
 
 			&:after{
