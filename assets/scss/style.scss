@@ -166,7 +166,9 @@ TABLE INDEX
 .social-fixed.hide-social{
 	visibility:hidden;
 }
-.header-logo{
+h1.header-logo{
+    margin: 0;
+    font-size: 12px;
     width: calc(600%);
     padding: 5px 0;
     img{
@@ -729,7 +731,7 @@ TABLE INDEX
 	}@include tablet{
 	    padding:40px;
 	}
-	h2,h3,h4,p, .meta-info span{
+	h1,h2,h3,h4,p, .meta-info span{
 	   color:$light-color;
 	}
 	p{

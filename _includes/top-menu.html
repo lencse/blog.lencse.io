@@ -1,10 +1,12 @@
 <div class="row">
     <div class="col-2">
-        <div class="header-logo">
-            <a href="/">
-                <img src="/site-assets/images/header-logo.svg" alt="Site logo (Lencse)">
-            </a>
-        </div>
+        <a href="/">
+            <img
+                src="/site-assets/images/header-logo.svg"
+                alt="Site logo (Lencse)"
+                title="Lencse blog"
+            >
+        </a>
     </div>
     <div class="col-10">
         <div class="themeix-menu">
@@ -13,7 +15,11 @@
                     <a href="#" >Categories</a>
                     <ul>
                         {%- for category in site.categories -%}
-                            <li><a href="/category/{{ category[0] | slugify }}">{{ category[0] | escape }}</a></li>
+                            <li>
+                                <a href="/category/{{ category[0] | slugify }}">
+                                    {{ category[0] | escape }}
+                                </a>
+                            </li>
                         {%- endfor -%}
                     </ul>
                  </li>
@@ -21,7 +27,11 @@
                     <a href="#" >Tags</a>
                     <ul>
                         {%- for tag in site.tags -%}
-                            <li><a href="/tag/{{ tag[0] | slugify }}">{{ tag[0] | escape }}</a></li>
+                            <li>
+                                <a href="/tag/{{ tag[0] | slugify }}">
+                                    {{ tag[0] | escape }}
+                                </a>
+                            </li>
                         {%- endfor -%}
                     </ul>
                  </li>
