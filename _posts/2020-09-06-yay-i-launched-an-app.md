@@ -31,9 +31,13 @@ To understand why I grabbed a keyboard and started the development, we need to k
 
 ### The National Blue Trail
 
-The National Blue Trail (in Hungarian: *Országos Kéktúra*) is an 1160 km long hiking trail across Hungary. There are checkpoints with stamps on the way and if you gather all the ~230 stamps in your booklet, you'll receive a certificate and an enamel pin. I've been walking the Blue Trail for two years and completed half of it. 
+The National Blue Trail (in Hungarian: *Országos Kéktúra*) is an 1160 km long hiking trail across Hungary. There are checkpoints with stamps on the way and if you gather all the ~230 stamps in your booklet, you'll receive a certificate and an enamel pin. I've been walking the Blue Trail for two years and completed half of it.
 
-![](/content-assets/img/yay-i-launched-an-app/kektura-map.jpg)
+![Map of the Blue Trail with the drawing of the pin](/content-assets/img/yay-i-launched-an-app/kektura-map.jpg)
+
+
+It's a beautiful adventure and I definitely recommend to try it out to anyone who has the chance to hike a few days in Hungary.
+
 
 ![](/content-assets/img/yay-i-launched-an-app/lencse-on-the-blue-trail.jpg)
 
