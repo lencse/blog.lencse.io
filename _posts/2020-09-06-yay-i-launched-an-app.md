@@ -36,13 +36,27 @@ The National Blue Trail (in Hungarian: *Országos Kéktúra*) is an 1160 km long
 ![Map of the Blue Trail with the drawing of the pin](/content-assets/img/yay-i-launched-an-app/kektura-map.jpg)
 
 
-It's a beautiful adventure and I definitely recommend to try it out to anyone who has the chance to hike a few days in Hungary.
+It's a beautiful adventure and I definitely recommend trying it out to anyone who has the chance to hike a few days in Hungary.
 
 
-![](/content-assets/img/yay-i-launched-an-app/lencse-on-the-blue-trail.jpg)
+![Me with my friend's dog on the Blue Train in Vértes Mountain](/content-assets/img/yay-i-launched-an-app/lencse-on-the-blue-trail.jpg)
 
 
-## The app
+### How I generated maps before
+
+I'm using [maps.me](https://maps.me/) on my iPhone to navigate during hiking. It can only parse `.kml` files when importing trail paths, so everytime I went for a hike, I had to do these steps the day before:
+
+
+1. Open [tervezo.heyjoe.hu](https://tervezo.heyjoe.hu)  or [turistautak.openstreetmap.hu](https://turistautak.openstreetmap.hu) on a desktop computer. These are very powerful, clever tools with a lot of setup options, draggable track anchors and dozens of map layers.
+2. Clicked on the map to plan the trails.
+3. Exported the track in `.gpx`
+4. Open [gpx2kml.com](https://gpx2kml.com) and export it to `.kml`
+5. Send the file to my iPhone.
+6. And finally: import the paths to *maps.me*
+
+Idea: a simple web app with 2 dropdowns and a download button
+
+Result:
 
 ![](/content-assets/img/yay-i-launched-an-app/kektura-szakaszok-main-screenshot.png)
 
@@ -50,8 +64,31 @@ It's a beautiful adventure and I definitely recommend to try it out to anyone wh
 
 ![](/content-assets/img/yay-i-launched-an-app/maps.me-1.png)
 
+### The map
+
+Analytics.
+
 ## The technologies
+
+### Jekyll?
+
+### Tailwind.css
+
+### Leaflet
+
+### Geolib
+
+### Netlify functions
+
+
 
 ## The build process
 
+### Daily rebuild
+
+Zapier
+
 ## Possible future improvements
+
+- GPX download
+- DDK and Alföldi kéktúra
