@@ -22,6 +22,7 @@ TABLE INDEX
 @import 'base/reset';
 @import 'base/functions';
 @import 'base/typography';
+@import 'code-highlight/pygments-fruity';
 
 
 /* ==============================================
@@ -1112,6 +1113,7 @@ h1.header-logo{
    .fluid-width-video-wrapper{
           margin-bottom: 1rem;
    }
+
 
 }
 

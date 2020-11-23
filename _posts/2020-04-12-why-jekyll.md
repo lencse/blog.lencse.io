@@ -31,7 +31,7 @@ I first heard about Gatsby in the [Ladybug Podcast](https://ladybug.dev/), and e
 
 Another problem is that I always thought that I know the javascript syntax until I saw some Gatsby code. :( Seriously, what the hell is happening there?
 
-```jsx
+{% highlight jsx %}
 import React from "react"
 import styled from "styled-components"
 
@@ -51,7 +51,7 @@ const UserWrapper = styled.div`
     margin-bottom: 0;
   }
 `
-```
+{% endhighlight %}
 
 So, while I absolutely think that Gatsby is a very promising concept, and I'm planning to use it for an other project, I decided to start with an old fashioned, pure blogging engine with a good old player from the market.
 

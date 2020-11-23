@@ -87,3 +87,5 @@ defaults:
     values:
       extra_scripts:
         - https://cdn.commento.io/js/commento.js
+
+highlighter: rouge
