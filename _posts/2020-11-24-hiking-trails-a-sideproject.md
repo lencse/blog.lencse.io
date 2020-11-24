@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hiking trails - a side project
-date: 2020-11-23 18:00
+date: 2020-11-24 17:00
 categories: Projects
 author: Lencse
 tags:
