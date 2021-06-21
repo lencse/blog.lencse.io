@@ -20,7 +20,7 @@ site_page: true
     </figure>
 </p>
 
-A small web app to generate hiking tracks for the [Hungarian Blue Trail](https://en.wikipedia.org/wiki/National_Blue_Trail"), converting between [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format "GPX file format") and [KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language "KML file format") and viewing them on a map.
+A small web app to generate hiking tracks for the [Hungarian Blue Trail](https://en.wikipedia.org/wiki/National_Blue_Trail), converting between [GPX](https://en.wikipedia.org/wiki/GPS_Exchange_Format "GPX file format") and [KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language "KML file format") and viewing them on a map.
 
 - **Link:** [https://kektura-szakaszok.lencse.io/](https://kektura-szakaszok.lencse.io/ "Kéktúra szakaszok")
 - **Source code:** [https://github.com/lencse/kektura-szakaszok](https://github.com/lencse/kektura-szakaszok "Source code on Github")
